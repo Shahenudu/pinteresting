@@ -82,5 +82,5 @@ Rails.application.configure do
 
   # Required for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: ‘omr-pinterestingapp.herokuapp.com’ }
+  config.action_mailer.default_url_options = { :host => 'omr-pinterestingapp.herokuapp.com' }
 end
